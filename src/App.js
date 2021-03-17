@@ -4,20 +4,18 @@ import { useState } from 'react';
 import './App.css';
 
 const SearchBar = () => (
-  <form action="/" method="get">
+  <form action='https://www.wikihow.com/Not-Be-Gullible' method="get">
       <input
           type="text"
-          id="header-search"
           placeholder="Paste your link here..."
-          name="s" 
       />
       <button
             type="button"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href='https://www.youtube.com/watch?v=bxqLsrlakK8';
+              window.location.href='https://www.wikihow.com/Not-Be-Gullible';
               }}
-        > Click here</button>
+        > CHECK</button>
   </form>
 );
 
